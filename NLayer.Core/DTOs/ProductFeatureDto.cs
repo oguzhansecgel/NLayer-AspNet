@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NLayer.Core
+namespace NLayer.Core.DTOs
 {
-	public class ProductFeature
+	public class ProductFeatureDto
 	{
 		public int ID { get; set; }
 		public string Color { get; set; }
@@ -15,6 +15,5 @@ namespace NLayer.Core
 
 
 		public int ProductID { get; set; }
-		public Product Product { get; set; }
 	}
 }
